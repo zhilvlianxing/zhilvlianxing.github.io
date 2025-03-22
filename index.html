@@ -10,60 +10,94 @@
             line-height: 1.8;
             font-family: -apple-system, "Microsoft Yahei";
             color: #333;
+            background: #f8f9fa;
         }
-        h1 { font-size: 22px; border-bottom: 2px solid #007bff; padding-bottom: 8px; }
-        h3 { font-size: 18px; color: #007bff; margin-top: 25px; }
-        ul { padding-left: 20px; }
-        a { 
+        h1 {
+            font-size: 22px;
+            color: #2c7a2c;
+            border-bottom: 2px solid #2c7a2c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 18px;
+            color: #2c7a2c;
+            margin: 25px 0 15px;
+        }
+        .section {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        a {
             color: #007bff;
             word-break: break-all;
             display: block;
             margin: 8px 0;
+            text-decoration: none;
         }
-        .contact {
-            background: #f5f5f5;
+        .contact-box {
+            background: #e9f5e9;
             padding: 15px;
-            border-radius: 6px;
+            border-radius: 8px;
             margin-top: 25px;
+        }
+        .warning {
+            color: #dc3545;
+            font-size: 14px;
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
-    <h1>京津冀绿色转型政策获取指南</h1>
+    <h1>质绿联行政策获取指南</h1>
 
-    <h3>一、官方权威渠道</h3>
-    <ul>
-        <li><strong>中国政府网</strong><br>
-            <a href="http://www.gov.cn">http://www.gov.cn</a>（搜索关键词：京津冀政务服务/绿色转型）</li>
+    <div class="section">
+        <h2>一、官方政策渠道</h2>
+        <p><strong>国家层面：</strong></p>
+        <a href="http://www.gov.cn/zhengce/">中国政府网政策文件库</a>
+        <a href="https://www.ndrc.gov.cn/">国家发改委生态文明专栏</a>
         
-        <li><strong>国家发展改革委</strong><br>
-            <a href="https://www.ndrc.gov.cn">https://www.ndrc.gov.cn</a><br>
-            （含京津冀地方政策专区）</li>
-    </ul>
-
-    <h3>二、高校智库资源</h3>
-    <ul>
-        <li><strong>北京大学首都发展研究院</strong><br>
-            《京津冀绿色发展年度报告》：<br>
-            <a href="http://www.bjf.pku.edu.cn">http://www.bjf.pku.edu.cn</a></li>
-    </ul>
-
-    <div class="contact">
-        <strong>合作咨询：</strong><br>
-        邮箱：<a href="mailto:2193565080@qq.com">2193565080@qq.com</a><br>
-        （注明"政策咨询"优先处理）
+        <p><strong>地方平台：</strong></p>
+        <a href="http://sthjj.beijing.gov.cn/">北京生态环境局政策法规</a>
+        <a href="http://gyxxh.tj.gov.cn/">天津工信局政务公开</a>
+        <a href="https://hbdrc.hebei.gov.cn/">河北省发改委双碳专题</a>
     </div>
 
-    <!-- 返回按钮 -->
+    <div class="section">
+        <h2>二、典型案例获取</h2>
+        <a href="https://www.miit.gov.cn/">工信部绿色制造名单</a>
+        <a href="http://bjgxj.beijing.gov.cn/">北京低碳试点项目库</a>
+        <a href="http://www.shougang.com.cn/">首钢集团可持续发展</a>
+        <p class="warning">注：部分链接需注册登录后查看</p>
+    </div>
+
+    <div class="section">
+        <h2>三、智能查询工具</h2>
+        <a href="https://www.qizhidao.com/">企知道政策雷达</a>
+        <a href="https://www.cnki.net/">清华同方知网案例库</a>
+        <p>（机构账号可申请试用权限）</p>
+    </div>
+
+    <div class="contact-box">
+        <h2>合作咨询</h2>
+        <p>邮箱：<a href="mailto:2193956080@qq.com">2193956080@qq.com</a></p>
+        <p>请备注"政策咨询"优先处理</p>
+    </div>
+
+    <!-- 微信专用返回按钮 -->
     <a href="javascript:history.back()" 
-       style="display: inline-block; 
-              margin-top: 25px;
-              padding: 8px 15px;
-              background: #007bff;
+       style="display: block;
+              margin: 25px auto;
+              padding: 10px 20px;
+              width: fit-content;
+              background: #2c7a2c;
               color: white;
-              text-decoration: none;
-              border-radius: 4px;">
-        ← 返回微信
+              border-radius: 25px;
+              text-align: center;">
+        返回上级页面
     </a>
 </body>
 </html>
